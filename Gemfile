@@ -44,4 +44,7 @@ gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :bran
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 ruby '2.1.2'
 
+# Spree extentions
+gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
+
 gem 'rails_12factor', group: :production
