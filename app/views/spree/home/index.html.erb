@@ -1,0 +1,95 @@
+<div class="row" id="home-carousel">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="product-image">
+          <% url = product_url(@products.first, :taxon_id => @taxon.try(:id)) %>
+          <%= link_to large_image(@products.first, :itemprop => "image"), url, :itemprop => 'url' %>
+        </div>
+      </div>
+      <div class="item">
+        <div class="product-image">
+          <% url = product_url(@products.last, :taxon_id => @taxon.try(:id)) %>
+          <%= link_to large_image(@products.last, :itemprop => "image"), url, :itemprop => 'url' %>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div id="home-left-side" class="col-sm-8">
+    <div class="responsive-container home-video">
+      <iframe src="http://youtube.com/embed/L1fR6Qzl7U0?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-default home-panels">
+        <div class="panel-body">
+          <h4 class="text-primary">ANATOMY</h4>
+          <p>
+            Kadence Technology, Inc. is pleased to introduce you to the world’s first pressure-regulated snorkel. Envisioned and developed by a doctor of internal medicine, Mark R. Johnson, MD, Kadence Technology is the revolutionary science behind the Kapitol Reef® snorkel. It purposefully introduces a calibrated resistance into the exhalation path of the snorkel to improve your breathing.
+          </p>
+          <p>
+            This introduces a small, therapeutic pressure to improve oxygen delivery into, and carbon dioxide removal from, the bloodstream. It also counters the compressive weight of water acting on the chest wall, sparing inhalation muscles from fatigue while maintaining more natural lung volumes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-default home-panels">
+        <div class="panel-body">
+          <h4 class="text-danger">RESPIRATORY RATES</h4>
+          <p>
+            The pressure regulation of this innovative technology significantly improves performance and safety while simultaneously reducing what has become known as “snorkel panic". Kadence Technology also ingeniously separates inhaled air from exhaled carbon dioxide, thereby minimizing the re-breathing of oxygen-depleted air.
+          </p>
+          <p>
+            This helps all users, but is especially beneficial for individuals with small lungs. Not only can children now swim with the safety of an adult-sized snorkel, but they can do so with better comfort and safety. Due to its unique design, the Kapitol Reef snorkel empowers you to breathe more naturally without forceful purging, even after diving or swimming in rough waters.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="home-left-side" class="col-sm-4">
+    <div class="panel panel-default home-panels">
+      <div class="panel-heading home-review-heading">
+        <h3 class="panel-title">REVIEWS</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          “Best investment on snorkeling tripe! I love this snorkel, it delivers on its promise to be a truly dry snorkel. It fits comfortably. I took it on a trip to the Mayan Riviera, it was amazing being able to snorkel for hours on end without the fatigue I used to experience with cheap snorkels. I was able to free dive and swim right along turtles in Akumal! It was well worth the money, I highly recommend it!”<br>
+          - Faustino R., San Diego, CA
+        </p>
+        <p>
+          “I use the snorkel in the pool for fin training. The Kapitol Reef design is one that I had thought of thirty years ago, but they actually did it - and it works! Due to the separate inhale and exhale passages, every breath is fresh air. Even with hard finning for 1/2 mile there is no sensation of air starvation. This feature alone makes the product worthwhile. I also use it scuba diving and consider it a piece of safety equipment. If you get stuck with a long surface swim with an empty tank it would be great to have! I give them out as gifts!”<br>
+          - Jim, Guilford, CT
+        </p>
+        <p>
+          “After years of being a great diver but a horrible snorkeler due to uncomfortable and flooded snorkels, I have finally found the snorkel that sets me free! Kapitol Reef’s unique design allows me to comfortably swim around with absolutely no worry of inhaling water. I cannot wait until I get to take this beauty to Aruba. An added bonus for those who enjoy being fashionable in the water is that Kapitol Reef offers this snorkel in a variety of colors. I couldn’t be happier with another snorkel!”<br>
+          - Sara G., CA
+        </p>
+        <h5>Write your own review</h5>
+        <%= text_area_tag nil, nil, class: "home-add-review" %>
+        <br>
+        <%= link_to 'Submit', nil, class: 'btn btn-default' %>
+      </div>
+    </div>
+  </div>
+</div>
