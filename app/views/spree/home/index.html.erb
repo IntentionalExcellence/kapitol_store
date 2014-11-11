@@ -12,13 +12,17 @@
       <div class="item active">
         <div class="product-image">
           <% url = product_url(@products.first, :taxon_id => @taxon.try(:id)) %>
-          <%= link_to large_image(@products.first, :itemprop => "image"), url, :itemprop => 'url' %>
+          <%= link_to url, :itemprop => 'url' do %>
+            <%= image_tag 'blue-snorkel.jpg' %>
+          <% end -%>
         </div>
       </div>
       <div class="item">
         <div class="product-image">
           <% url = product_url(@products.last, :taxon_id => @taxon.try(:id)) %>
-          <%= link_to large_image(@products.last, :itemprop => "image"), url, :itemprop => 'url' %>
+          <%= link_to url, :itemprop => 'url' do %>
+            <%= image_tag 'blue-snorkel.jpg' %>
+          <% end -%>
         </div>
       </div>
     </div>
