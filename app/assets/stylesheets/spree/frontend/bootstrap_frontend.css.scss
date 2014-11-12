@@ -8,7 +8,7 @@ $icon-font-path: "../../bootstrap/";
   background: #ffffff;
   background-size: cover;
   /*margin-bottom: $line-height-computed;*/
-  min-height: 75px;
+  min-height: 93px;
   margin: auto;
   max-width: 1170px;
   #header {
@@ -31,7 +31,7 @@ $icon-font-path: "../../bootstrap/";
   }
 
   .navbar_links_li{
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -40,6 +40,7 @@ $icon-font-path: "../../bootstrap/";
   .cart-info{
     text-decoration: none;
     color: #6a6a6a;
+    font-size: 18px;
   }
 
   a.nav_links:hover,
@@ -86,11 +87,7 @@ h1 {
 /*Home*/
 
 #home-body{
-  background-color: #dddddd
-}
-
-#homepage{
-  background: #dddddd
+  background-color: rgb(244, 244, 244);
 }
 
 #home-carousel {
@@ -112,6 +109,7 @@ h1 {
 
 .home-panels{
   border-radius: 0px;
+  border-color: rgb(244, 244, 244);
 }
 
 .home-review-heading{
