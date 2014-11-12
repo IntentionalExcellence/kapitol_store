@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid collapsable-nav">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div id="main-nav-bar" class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to spree.root_path, class: 'navbar-brand' do %>
+        <%= image_tag 'kr_logo.png' %>
+      <% end -%>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse collapsable-nav" id="bs-example-navbar-collapse-1">
+      <ul id="navbar_links" class="navbar-nav navbar-right">
+        <li id="home-link" class="navbar_links_li" data-hook>
+          <%= link_to Spree.t(:home), spree.root_path, class: 'nav_links' %>
+        </li>
+        <li id="link-to-cart" class="navbar_links_li" data-hook>
+          <noscript>
+            <%= link_to Spree.t(:cart), '/cart', class: 'nav_links' %>
+          </noscript>
+          &nbsp;
+        </li>
+        <script>Spree.fetch_cart()</script>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
