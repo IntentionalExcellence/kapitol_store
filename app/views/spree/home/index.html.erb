@@ -64,7 +64,7 @@
     </div>
   </div>
   <div id="home-left-side" class="col-sm-4">
-    <div class="panel panel-default home-panels">
+    <div class="panel panel-default home-panels" id="review-panel">
       <div class="panel-heading home-review-heading">
         <h3 class="panel-title">REVIEWS</h3>
       </div>
@@ -81,6 +81,8 @@
           “After years of being a great diver but a horrible snorkeler due to uncomfortable and flooded snorkels, I have finally found the snorkel that sets me free! Kapitol Reef’s unique design allows me to comfortably swim around with absolutely no worry of inhaling water. I cannot wait until I get to take this beauty to Aruba. An added bonus for those who enjoy being fashionable in the water is that Kapitol Reef offers this snorkel in a variety of colors. I couldn’t be happier with another snorkel!”<br>
           - Sara G., CA
         </p>
+      </div>
+      <div class="panel-footer">
         <h5>Write your own review</h5>
         <%= form_for @new_review do |f| %>
           <form class="form-horizontal" role="form">

@@ -118,6 +118,10 @@ h1 {
   background-color: #000000 !important;
 }
 
+#review-panel{
+  max-height: 870px;
+}
+
 /*responsive youtube*/
 .responsive-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 .responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
