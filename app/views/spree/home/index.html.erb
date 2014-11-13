@@ -69,20 +69,19 @@
         <h3 class="panel-title">REVIEWS</h3>
       </div>
       <div class="panel-body">
-        <p>
-          “Best investment on snorkeling tripe! I love this snorkel, it delivers on its promise to be a truly dry snorkel. It fits comfortably. I took it on a trip to the Mayan Riviera, it was amazing being able to snorkel for hours on end without the fatigue I used to experience with cheap snorkels. I was able to free dive and swim right along turtles in Akumal! It was well worth the money, I highly recommend it!”<br>
-          - Faustino R., San Diego, CA
-        </p>
-        <p>
-          “I use the snorkel in the pool for fin training. The Kapitol Reef design is one that I had thought of thirty years ago, but they actually did it - and it works! Due to the separate inhale and exhale passages, every breath is fresh air. Even with hard finning for 1/2 mile there is no sensation of air starvation. This feature alone makes the product worthwhile. I also use it scuba diving and consider it a piece of safety equipment. If you get stuck with a long surface swim with an empty tank it would be great to have! I give them out as gifts!”<br>
-          - Jim, Guilford, CT
-        </p>
-        <p>
-          “After years of being a great diver but a horrible snorkeler due to uncomfortable and flooded snorkels, I have finally found the snorkel that sets me free! Kapitol Reef’s unique design allows me to comfortably swim around with absolutely no worry of inhaling water. I cannot wait until I get to take this beauty to Aruba. An added bonus for those who enjoy being fashionable in the water is that Kapitol Reef offers this snorkel in a variety of colors. I couldn’t be happier with another snorkel!”<br>
-          - Sara G., CA
-        </p>
+        <% @reviews.each do |review| %>
+          <div>
+            <p>
+              "<%= review.description %>"
+              <br>
+              <span class="review-details"><%= "#{review.name}" %></span>
+              <br>
+              <span class="review-details"><%= "#{review.city}, #{review.state}" %></span>
+            </p>
+          </div>
+        <% end -%>
       </div>
-      <div class="panel-footer">
+      <div class="panel-footer clearfix">
         <h5>Write your own review</h5>
         <%= form_for @new_review do |f| %>
           <form class="form-horizontal" role="form">
