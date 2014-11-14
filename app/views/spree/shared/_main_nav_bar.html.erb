@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to spree.root_path, class: 'navbar-brand' do %>
+      <%= link_to 'http://kapitolreef.com/', class: 'navbar-brand' do %>
         <%= image_tag 'kr_logo.png' %>
       <% end -%>
     </div>
@@ -17,8 +17,17 @@
     <div class="collapse navbar-collapse collapsable-nav" id="bs-example-navbar-collapse-1">
       <ul id="navbar_links" class="navbar-nav navbar-right">
         <li id="home-link" class="navbar_links_li" data-hook>
-          <%= link_to Spree.t(:home), spree.root_path, class: 'nav_links' %>
+          <%= link_to 'FAQ', 'http://kapitolreef.com/faq/', class: 'nav_links' %>
         </li>
+        <% if current_spree_user %>
+          <li id="logout-link" class="navbar_links_li" data-hook>
+            <%= link_to Spree.t(:logout), spree.logout_path, class: 'nav_links' %>
+          </li>
+        <% else %>
+          <li id="login-link" class="navbar_links_li" data-hook>
+            <%= link_to Spree.t(:login), spree.login_path, class: 'nav_links' %>
+          </li>
+        <% end -%>
         <li id="link-to-cart" class="navbar_links_li" data-hook>
           <noscript>
             <%= link_to Spree.t(:cart), '/cart', class: 'nav_links' %>
