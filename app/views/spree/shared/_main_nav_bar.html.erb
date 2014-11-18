@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <%= link_to 'http://104.131.137.217/', class: 'navbar-brand' do %>
         <%= image_tag 'kr_logo.png' %>
@@ -16,8 +17,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse collapsable-nav" id="bs-example-navbar-collapse-1">
       <ul id="navbar_links" class="navbar-nav navbar-right">
+        <li id="products-link" class="navbar_links_li" data-hook>
+          <%= link_to 'Products', spree.products_path, class: 'nav_links' %>
+        </li>
         <li id="home-link" class="navbar_links_li" data-hook>
           <%= link_to 'FAQ', 'http://104.131.137.217/test/', class: 'nav_links' %>
+        </li>
+        <li id="home-link" class="navbar_links_li" data-hook>
+          <%= link_to 'Shop', spree.root_path, class: 'nav_links' %>
         </li>
         <% if current_spree_user %>
           <li id="logout-link" class="navbar_links_li" data-hook>
