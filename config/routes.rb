@@ -10,4 +10,9 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, :at => '/store'
 
   root to: "welcome#index"
+
+  Spree::Core::Engine.routes.draw do
+     resources :reviews
+     post 'update_reviews', to: 'reviews#update_reviews'
+  end
 end

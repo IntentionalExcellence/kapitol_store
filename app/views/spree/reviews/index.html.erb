@@ -1,0 +1,27 @@
+<%= form_tag update_reviews_path do %>
+  <div class="row">
+    <% @reviews.each do |review| %>
+      <div class="panel panel-default review-panels-admin">
+       <div class="panel-heading">
+         <%= "#{review.name} from #{review.city}, #{review.state} wrote:" %>
+       </div>
+       <div class="panel-body">
+        "<%= "#{review.description}" %>"
+       </div>
+       <div class="panel-footer clearfix">
+        <%= hidden_field_tag "review_data[][id]", review.id %>
+        <%= check_box_tag("review_data[][display]", value = true, checked = review.display) %>
+        <%= label_tag(:display, "Include on shop home page") %><br>
+        <%= link_to 'Delete', review, method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger pull-right' %>
+       </div>
+      </div>
+    <% end -%>
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container">
+        <div class="navbar-form navbar-right">
+          <%= submit_tag "Update Reviews", class: 'btn btn-warning' %>
+        </div>
+    </div>
+  </nav>
+<% end -%>

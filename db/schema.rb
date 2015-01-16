@@ -17,6 +17,17 @@ ActiveRecord::Schema.define(version: 20150116222647) do
   enable_extension "plpgsql"
   enable_extension "hstore"
 
+  create_table "reviews", force: true do |t|
+    t.string   "name"
+    t.string   "city"
+    t.string   "state"
+    t.string   "email"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "display"
+  end
+
   create_table "spree_addresses", force: true do |t|
     t.string   "firstname"
     t.string   "lastname"
