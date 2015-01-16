@@ -16,19 +16,6 @@ GIT
       spree_core (~> 2.3.0.beta)
 
 GIT
-  remote: https://github.com/spree/spree_auth_devise.git
-  revision: 77e167f209d08a7da65b9e98b3cc1df269e0b084
-  branch: 2-3-stable
-  specs:
-    spree_auth_devise (2.2.0)
-      cancan (~> 1.6.10)
-      devise (~> 3.2.3)
-      devise-encryptable (= 0.1.2)
-      json
-      multi_json
-      spree_core (~> 2.3.0)
-
-GIT
   remote: https://github.com/spree/spree_gateway.git
   revision: 63df5cfc6c5768bf8ef0ebd71f0db0febaf5bf18
   branch: 2-3-stable
@@ -140,8 +127,6 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    devise-encryptable (0.1.2)
-      devise (>= 2.1.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.2)
@@ -177,6 +162,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.2)
     mime-types (1.25.1)
     mini_portile (0.6.0)
     minitest (5.5.1)
@@ -203,6 +189,12 @@ GEM
     polyamorous (1.0.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-rails (0.3.2)
+      pry (>= 0.9.10)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rabl (0.9.4.pre1)
@@ -266,6 +258,7 @@ GEM
       rdoc (~> 4.0)
     select2-rails (3.5.9.1)
       thor (~> 0.14)
+    slop (3.6.0)
     spree (2.3.1)
       spree_api (= 2.3.1)
       spree_backend (= 2.3.1)
@@ -361,10 +354,12 @@ DEPENDENCIES
   binding_of_caller
   capistrano-rails
   coffee-rails (~> 4.0.0)
+  devise
   factory_girl_rails
   jbuilder (~> 2.0)
   jquery-rails
   pg
+  pry-rails
   quiet_assets
   rails (= 4.1.4)
   rails_12factor
@@ -372,7 +367,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree (= 2.3.1)
-  spree_auth_devise!
   spree_fancy!
   spree_gateway!
   spree_mail_settings!
