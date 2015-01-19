@@ -14,7 +14,7 @@ gem 'sprockets-rails', '2.1.3'
 gem 'spring',        group: :development
 
 group :development do
-  gem 'capistrano-rails', group: :development
+  gem 'capistrano-rails'
   gem "better_errors"
   gem "binding_of_caller"
   gem "rspec-rails"
@@ -27,6 +27,8 @@ gem "pry-rails"
 gem 'spree', '2.3.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_mail_settings', :git => 'git://github.com/hoppinger/spree_mail_settings.git'
+# gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-3-stable'
+
 
 # Spree extentions
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
