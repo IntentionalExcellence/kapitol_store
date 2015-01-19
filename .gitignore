@@ -17,3 +17,4 @@
 
 /chef-solo
 /.vagrant
+/.capistrano
