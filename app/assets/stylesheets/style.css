@@ -1,0 +1,1409 @@
+#footer {
+    background-color: rgb(244, 244, 244);
+}
+#contentContainer {
+    float: none;
+    height: 332px;
+    margin: 19px auto;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Header {
+    float: none;
+    height: 93px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 1024px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+/* Navigation Menu */
+
+img#Logo2 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.main-navigation {
+    text-align: center;
+}
+.main-navigation li {
+    margin-top: 24px;
+    margin-top: 1.714285714rem;
+    font-size: 12px;
+    font-size: 0.857142857rem;
+    line-height: 1.42857143;
+}
+.main-navigation a {
+    color: #5e5e5e;
+}
+.main-navigation a:hover,
+.main-navigation a:focus {
+    color: #21759b;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+    display: none;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+    display: inline-block;
+}
+#responsive-menu {
+    height: initial !important;
+}
+#responsive-menu ul {
+    padding-left: 0px;
+}
+#responsive-menu .RMImage {
+    float: left;
+}
+#Logo {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 27px 0px 0px 34px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+#cart {
+    float: right;
+    display: block;
+    margin-top: 13px;
+}
+#Slider {
+    float: none;
+    height: 420px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 1024px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: none;
+    max-height: none;
+    margin-right: auto;
+    overflow: hidden;
+}
+ul.slides {
+    height: 420px;
+    overflow: hidden;
+}
+.metaslider.metaslider-flex.metaslider-39.ml-slider {
+    max-width: none !important;
+}
+#Social_Box_2 {
+    float: left;
+    height: 332px;
+    margin: 0px;
+    clear: none;
+    width: 315px;
+    min-height: 50px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#Social_Box_1 {
+    float: left;
+    height: 332px;
+    margin: 0px 19px;
+    clear: none;
+    width: 315px;
+    min-height: 50px;
+    display: block;
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#Social_Box_3 {
+    float: left;
+    height: 332px;
+    margin: 0px 19px;
+    clear: none;
+    width: 315px;
+    min-height: 50px;
+    display: block;
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#Social_Media {
+    float: none;
+    height: 332px;
+    margin: 19px auto;
+    clear: none;
+    width: 1024px;
+    min-height: 50px;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Image {
+    float: left;
+    height: 210px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    background-image: url("wp-content/themes/KapitolReef/images/smallbox1.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#Image1 {
+    float: left;
+    height: 210px;
+    margin: 0px;
+    clear: none;
+    width: 99.999998%;
+    min-height: 50px;
+    display: block;
+    background-image: url("wp-content/themes/KapitolReef/images/smallbox2.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#Image2 {
+    float: left;
+    height: 210px;
+    margin: 0px;
+    clear: none;
+    width: 99.999998%;
+    min-height: 50px;
+    display: block;
+    background-image: url("wp-content/themes/KapitolReef/images/smallbox3.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+}
+#Network {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 15px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(18, 114, 186);
+    text-transform: uppercase;
+}
+#Network1 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 15px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(212, 50, 33);
+    text-transform: uppercase;
+}
+#Network2 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 15px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    color: #4099FF;
+    text-transform: uppercase;
+}
+#Network3 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 15px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    color: #517fa4;
+    text-transform: uppercase;
+}
+#Featured {
+    float: none;
+    height: 100%;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    min-width: 0px;
+    padding: 0px;
+    min-height: 0px;
+    display: none;
+}
+#Yellow {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 38px;
+    background-color: rgb(255, 218, 0);
+    position: relative;
+    padding: 0px;
+}
+#Image4 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 17.5px 0px 0px 29.85%;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+#Social_Media_Links {
+    float: right;
+    height: 34px;
+    clear: none;
+    width: auto;
+    position: absolute;
+    overflow: visible;
+    top: auto;
+    left: auto;
+    right: 10px;
+    bottom: 10px;
+}
+#Facebook {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    position: relative;
+    max-height: 100%;
+}
+#Twitter {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    position: relative;
+    max-height: 100%;
+}
+#Youtube {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 5px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    position: relative;
+    max-height: 100%;
+}
+#Footer {
+    float: none;
+    height: 100px;
+    margin: 155px auto 30px;
+    clear: none;
+    width: 986px;
+    min-height: 0px;
+    position: relative;
+}
+#Container3 {
+    float: none;
+    height: 365px;
+    margin: 0px auto 19px;
+    clear: none;
+    width: 1024px;
+    min-height: 50px;
+    position: relative;
+}
+#Youtube_Video {
+    float: left;
+    height: 100%;
+    margin: 0px 19px;
+    clear: none;
+    width: 649px;
+    background-color: rgb(67, 163, 160);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    position: relative;
+}
+#Reviews {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 315px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+#ReviewBox {
+    overflow-y: overlay;
+    overflow-x: hidden;
+    float: left;
+    height: 320px;
+}
+#Header1 {
+    float: left;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 45px;
+    background-color: rgb(0, 0, 0);
+}
+#Cart {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+}
+#Navbar {
+    float: left;
+    height: 34px;
+    clear: none;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: 30px;
+    bottom: auto;
+}
+#Title1 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 6px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+}
+#p {
+    float: left;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 5px 15px 0px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+    line-height: normal;
+}
+#Title2 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 6px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+}
+#p1 {
+    float: left;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 5px 15px 0px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+}
+#Title3 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 6px 0px 0px 15px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+}
+#p2 {
+    float: left;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 5px 15px 0px;
+    clear: both;
+    min-height: 0px;
+    font-family: open-sans;
+}
+#Image3 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 4.761905%;
+    margin-top: 10.5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+#Play {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin: 20% auto 0px;
+    left: 40%;
+}
+#Title {
+    float: right;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: open-sans;
+    padding-right: 0px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 10px;
+    bottom: 50px;
+}
+#SubTitle {
+    float: right;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: open-sans;
+    padding-right: 0px;
+    font-style: italic;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 10px;
+    bottom: 15px;
+}
+#Left_Slider {
+    float: left;
+    height: 35px;
+    clear: none;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: auto;
+    background-image: url("wp-content/themes/KapitolReef/images/left-disabled.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    bottom: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#Left_Slider:hover {
+    background-image: url("wp-content/themes/KapitolReef/images/left-active.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#Right_Slider:hover {
+    background-image: url("wp-content/themes/KapitolReef/images/right-active.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#Right_Slider {
+    float: left;
+    height: 35px;
+    clear: none;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 20px;
+    bottom: auto;
+    background-image: url("wp-content/themes/KapitolReef/images/right-disabled.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#text {
+    float: none;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: open-sans;
+    text-transform: capitalize;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    min-width: 0px;
+}
+#text1 {
+    float: none;
+    font-size: 14px;
+    width: 230px;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: open-sans;
+    text-transform: uppercase;
+}
+#FeaturedContainer {
+    float: none;
+    height: 155px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 1024px;
+    margin-right: auto;
+    padding-right: 19px;
+    padding-left: 19px;
+    position: relative;
+    display: none !important;
+}
+#Time {
+    float: left;
+    font-size: 14px;
+    width: 15%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 10px 0% 0px 10%;
+    clear: none;
+    min-height: 42px;
+    font-family: open-sans;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#Content {
+    float: none;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 42px;
+    font-family: open-sans;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-width: 0px;
+    padding-right: 25px;
+}
+
+#Author {
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 42px;
+    font-family: open-sans;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-width: 0px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+#CommentBox {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 28px;
+    clear: both;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#CommentInfo {
+    float: left;
+    height: 100%;
+    margin: 0px 0px 0px 10%;
+    clear: none;
+    width: 60%;
+    min-height: 0px;
+}
+@media screen and (min-width: 600px) {
+    .main-navigation ul.nav-menu,
+    .main-navigation div.nav-menu > ul {
+        display: inline-block !important;
+        text-align: left;
+        width: 100%;
+    }
+    .main-navigation ul {
+        margin: 0;
+        text-indent: 0;
+    }
+    .main-navigation li a,
+    .main-navigation li {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .main-navigation li a {
+        border-bottom: 0;
+        color: #6a6a6a;
+        line-height: 3.692307692;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .main-navigation li a:hover,
+    .main-navigation li a:focus {
+        color: #000;
+    }
+    .main-navigation li {
+        margin: 0 40px 0 0;
+        position: relative;
+    }
+    .main-navigation li ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        z-index: 1;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+    .main-navigation li ul ul {
+        top: 0;
+        left: 100%;
+    }
+    .main-navigation ul li:hover > ul,
+    .main-navigation ul li:focus > ul,
+    .main-navigation .focus > ul {
+        border-left: 0;
+        clip: inherit;
+        overflow: inherit;
+        height: inherit;
+        width: inherit;
+    }
+    .main-navigation li ul li a {
+        background: #efefef;
+        border-bottom: 1px solid #ededed;
+        display: block;
+        font-size: 11px;
+        font-size: 0.785714286rem;
+        line-height: 2.181818182;
+        padding: 8px 10px;
+        padding: 0.571428571rem 0.714285714rem;
+        width: 180px;
+        width: 12.85714286rem;
+        white-space: normal;
+    }
+    .main-navigation li ul li a:hover,
+    .main-navigation li ul li a:focus {
+        background: #e3e3e3;
+        color: #444;
+    }
+    .main-navigation .current-menu-item > a,
+    .main-navigation .current-menu-ancestor > a,
+    .main-navigation .current_page_item > a,
+    .main-navigation .current_page_ancestor > a {
+        color: #636363;
+        font-weight: bold;
+        border-bottom: 4px solid rgb(104, 104, 104);
+        height: 50px;
+    }
+    .menu-toggle {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1023px) {
+    #contentContainer {
+        width: 1024px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    #Cart {
+        display: block;
+    }
+    #ReviewBox {
+        height: 296px;
+    }
+    #Social_Media {
+        width: 960px;
+        height: 295px;
+        margin-top: 50px;
+    }
+    #Social_Box_1 {
+        width: 294px;
+        height: 295px;
+        min-height: 0px;
+    }
+    #Social_Box_2 {
+        width: 294px;
+        height: 295px;
+    }
+    #Social_Box_3 {
+        width: 294px;
+        height: 295px;
+    }
+    #Slider {
+        width: 960px;
+        height: 356px;
+    }
+    #Header {
+        width: 960px;
+    }
+    #Image {
+        height: 180px;
+    }
+    #Image1 {
+        height: 180px;
+    }
+    #Image2 {
+        height: 180px;
+    }
+    #SubTitle {
+        margin-right: 10px;
+        margin-top: 6px;
+        clear: both;
+    }
+    #Title {
+        margin-right: 10px;
+        margin-top: 285px;
+        clear: none;
+    }
+    #Container3 {
+        width: 960px;
+        height: 341px;
+    }
+    #Footer {
+        width: 960px;
+    }
+    #Youtube_Video {
+        width: 607px;
+        position: relative;
+        height: 100%;
+    }
+    #Play {
+        clear: none;
+    }
+    #Reviews {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        width: 294px;
+    }
+    #FeaturedContainer {
+        width: 960px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    #Slider {
+        width: 854px;
+        height: 328px;
+    }
+    #Social_Media {
+        width: 854px;
+        height: 267px;
+        margin-top: 35px;
+    }
+    #Social_Box_1 {
+        width: 259px;
+        height: 267px;
+    }
+    #ReviewBox {
+        height: 257px;
+    }
+    #Social_Box_2 {
+        width: 259px;
+        height: 267px;
+    }
+    #Social_Box_3 {
+        width: 259px;
+        height: 267px;
+    }
+    #Header {
+        width: 854px;
+    }
+    #Image {
+        height: 155px;
+    }
+    #Image1 {
+        height: 155px;
+    }
+    #Image2 {
+        height: 155px;
+    }
+    #Network {
+        margin-top: 15px;
+        margin-left: 15px;
+        clear: both;
+    }
+    #Title {
+        margin-right: 10px;
+        margin-top: 264px;
+        clear: none;
+        text-shadow: rgb(0, 0, 0) 0px 1px 3px;
+    }
+    #SubTitle {
+        clear: both;
+        margin-top: 27px;
+        text-shadow: rgb(0, 0, 0) 0px 1px 3px;
+    }
+    #Left_Slider {
+        bottom: auto;
+    }
+    #Right_Slider {
+        bottom: auto;
+    }
+    #Container3 {
+        width: 854px;
+        height: 302px;
+    }
+    #Youtube_Video {
+        width: 537px;
+    }
+    #Reviews {
+        width: 259px;
+    }
+    #Footer {
+        width: 854px;
+    }
+    #FeaturedContainer {
+        width: 854px;
+    }
+}
+@media only screen and (max-width: 854px) {
+    #Social_Box_1 {
+        height: 259px;
+        width: 241px;
+    }
+    #ReviewBox {
+        height: 237px;
+    }
+    #Social_Media {
+        height: 259px;
+        width: 800px;
+    }
+    #Social_Box_2 {
+        height: 259px;
+        width: 241px;
+    }
+    #Social_Box_3 {
+        height: 259px;
+        width: 241px;
+    }
+    #Navbar {
+        left: auto;
+    }
+    #Header {
+        width: 800px;
+        margin: 0px auto;
+        clear: none;
+        float: none;
+    }
+    #Slider {
+        margin-top: 0px;
+        clear: none;
+        width: 800px;
+        height: 309px;
+    }
+    #Container3 {
+        width: 800px;
+        height: 282px;
+    }
+    #Footer {
+        width: 800px;
+    }
+    #Youtube_Video {
+        width: 502px;
+    }
+    #Reviews {
+        width: 241px;
+    }
+    #Image2 {
+        height: 139px;
+    }
+    #Image1 {
+        height: 139px;
+    }
+    #Image {
+        height: 139px;
+    }
+    #FeaturedContainer {
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #Social_Box_1 {
+        height: 265px;
+    }
+    #Social_Box_2 {
+        height: 265px;
+    }
+    #ReviewBox {
+        height: 237px;
+    }
+    #Social_Box_3 {
+        height: 265px;
+    }
+    #Social_Media {
+        height: 265px;
+    }
+    #Image2 {
+        height: 139px;
+    }
+    #Image1 {
+        height: 139px;
+    }
+    #Image {
+        height: 139px;
+    }
+    #Footer {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #Header {
+        width: 720px;
+    }
+    #Footer {
+        width: 720px;
+    }
+    #Slider {
+        width: 720px;
+        height: 276px;
+    }
+    #Social_Media {
+        width: 720px;
+        margin-top: 30px;
+    }
+    #ReviewBox {
+        height: 339px;
+    }
+    #Social_Box_1 {
+        width: 214px;
+    }
+    #Social_Box_2 {
+        width: 214px;
+    }
+    #Social_Box_3 {
+        width: 214px;
+    }
+    #Image {
+        height: 131px;
+    }
+    #Image1 {
+        height: 131px;
+    }
+    #Image2 {
+        height: 131px;
+    }
+    #Container3 {
+        width: 720px;
+        height: auto;
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+    #Youtube_Video {
+        width: 682px;
+        height: 384px;
+        margin: 0px;
+    }
+    #Reviews {
+        width: 100%;
+        margin-top: 19px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 0px;
+        height: 384px;
+    }
+    #FeaturedContainer {
+        width: 720px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    #Header {
+        width: 640px;
+    }
+    #ReviewBox {
+        height: 294px;
+    }
+    #Slider {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 263px;
+    }
+    #Social_Media {
+        width: 640px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 19px;
+        padding-left: 19px;
+        float: none;
+        clear: none;
+    }
+    #Social_Box_1 {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 19px;
+        padding-bottom: 25px;
+    }
+    #Social_Box_2 {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 19px;
+        padding-bottom: 25px;
+    }
+    #Social_Box_3 {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 19px;
+        padding-bottom: 25px;
+    }
+    #Image {
+        height: 275px;
+    }
+    #Image1 {
+        height: 275px;
+    }
+    #Image2 {
+        height: 275px;
+    }
+    #Footer {
+        width: 640px;
+        height: 119px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Youtube_Video {
+        width: 100%;
+        height: 339px;
+    }
+    #Container3 {
+        width: 640px;
+        height: auto;
+    }
+    #FeaturedContainer {
+        width: 640px;
+    }
+    #Reviews {
+        height: 339px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #Footer {
+        height: 119px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 540px;
+    }
+    #Container3 {
+        width: 540px;
+        padding: 0px 19px;
+    }
+    #Youtube_Video {
+        width: 100%;
+        height: 304px;
+    }
+    #ReviewBox {
+        height: 294px;
+    }
+    #Slider {
+        width: 540px;
+        height: 221px;
+    }
+    #Right_Slider {
+        visibility: hidden;
+    }
+    #Left_Slider {
+        visibility: hidden;
+    }
+    #Header {
+        width: 540px;
+    }
+    #Social_Media {
+        width: 540px;
+        height: auto;
+    }
+    #Social_Box_1 {
+        width: 100%;
+        margin: 0px 0px 19px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    #Social_Box_2 {
+        width: 100%;
+        margin: 0px 0px 19px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    #Social_Box_3 {
+        width: 100%;
+        margin: 0px 0px 19px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    #Image1 {
+        height: 215px;
+    }
+    #Image {
+        height: 215px;
+    }
+    #Image2 {
+        height: 215px;
+    }
+    #FeaturedContainer {
+        width: 540px;
+        padding: 0px 19px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #Slider {
+        height: 221px;
+        width: 480px;
+    }
+    #ReviewBox {
+        height: 237px;
+    }
+    #Left_Slider {
+        visibility: hidden;
+    }
+    #Right_Slider {
+        visibility: hidden;
+    }
+    #Container3 {
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        float: none;
+        clear: none;
+        padding-right: 19px;
+        padding-left: 19px;
+        padding-bottom: 19px;
+        width: 480px;
+    }
+    #Youtube_Video {
+        height: 253px;
+    }
+    #Reviews {
+        height: 282px;
+    }
+    #FeaturedContainer {
+        padding-right: 19px;
+        padding-bottom: 0px;
+        padding-left: 19px;
+        width: 480px;
+    }
+    #Header {
+        width: 480px;
+    }
+    #Social_Media {
+        width: 480px;
+    }
+    #Footer {
+        width: 480px;
+        height: 140px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #Network {
+        clear: both;
+    }
+    #Network1 {
+        clear: both;
+    }
+    #Network2 {
+        clear: both;
+    }
+    #Network3 {
+        clear: both;
+    }
+    #Header {
+        width: 360px;
+    }
+    #ReviewBox {
+        height: 237px;
+    }
+    #Slider {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+    }
+    #Social_Media {
+        margin-top: 19px;
+        clear: none;
+        width: 360px;
+    }
+    #FeaturedContainer {
+        height: 288px;
+        width: 360px;
+    }
+    #Container3 {
+        width: 360px;
+    }
+    #Youtube_Video {
+        height: 203px;
+    }
+    #Footer {
+        width: 360px;
+        height: 154px;
+    }
+    #Social_Media_Links {
+        height: 34px;
+    }
+    #text {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #Footer {
+        width: 100%;
+        height: 154px;
+    }
+    #Youtube_Video {
+        height: 180px;
+    }
+    #text {
+        overflow: visible;
+        line-height: 17px;
+        margin-right: auto;
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+    #ReviewBox {
+        height: 237px;
+    }
+        #Header {
+        width: 240px;
+    }
+
+    #Slider {
+        width: 100%;
+    }
+
+    #Social_Media {
+        width: 100%;
+    }
+
+    #Container3 {
+        width: 100%;
+    }
+
+    #FeaturedContainer {
+        width: 100%;
+    }
+}

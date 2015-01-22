@@ -7,5 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Spree::Core::Engine.load_seed if defined?(Spree::Core)
-Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+# Spree::Core::Engine.load_seed if defined?(Spree::Core)
+# Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+
+mark = User.create_with(password: "password").find_or_create_by(email: "mark@kapitolreef.com")
+unless mark.has_spree_role?("admin")
+  mark.spree_roles << Spree::Role.where(name: "admin")
+end
