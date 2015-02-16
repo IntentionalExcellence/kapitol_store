@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require comment-reply.min
+//= require navigation
+//= require shiftnav
+//= require jquery.flexslider-min
 //= require_tree .

@@ -45,4 +45,12 @@ namespace :deploy do
     end
   end
 
+  task :seed do
+    on roles(:web) do
+      within release_path do
+        execute :rake, "db:seed"
+      end
+    end
+  end
+
 end
